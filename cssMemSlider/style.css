@@ -146,15 +146,15 @@ label.control::after {
   content: '';
   display: block;
   position: relative;
-  top: calc(var(--size-control) * -0.5);
-  width: calc(var(--size-control) * 2);
-  height: var(--size-control);
+  top: calc(var(--size-control) * -1);
+  width: calc(var(--size-control) * 2.5);
+  height: calc(var(--size-control) * 1.5);
 }
 label.control::before {
-  left: calc(var(--size-control) / -2);
+  left: calc(var(--size-control) / -1);
 }
 label.control::after {
-  right: calc(var(--size-control) / 2);
+  right: calc(var(--size-control));
 }
 label.control:hover {
   background-color: #fff;
