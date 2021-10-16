@@ -74,6 +74,7 @@ input {
 }
 
 .header {
+  margin-bottom: 5rem;
   border-bottom: 0.2rem solid var(--color-text);
 }
 
@@ -124,7 +125,7 @@ input {
 #slide3:checked ~ .inner-wrapper .description3,
 #slide4:checked ~ .inner-wrapper .description4{
   opacity: 1;
-  left: 2.0rem;
+  left: 0;
   width: 100%;
 }
 
@@ -191,4 +192,17 @@ label.control:hover {
   html {
     font-size: 5px;
   }
+
+  :root {
+    --size-control : 3rem;
+  }
+
+  .inner-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .descriptions {
+    align-self: flex-start;
+  }
+
 }
