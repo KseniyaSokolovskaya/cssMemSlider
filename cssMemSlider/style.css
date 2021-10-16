@@ -186,3 +186,9 @@ label.control:hover {
   align-items: center;
   border-top: 0.2rem solid var(--color-text);
 }
+
+@media (max-width: 467px) {
+  html {
+    font-size: 5px;
+  }
+}
