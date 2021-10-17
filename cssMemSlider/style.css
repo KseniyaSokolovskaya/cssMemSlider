@@ -30,13 +30,6 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-size: 2.5rem;
-  font-weight: 300;
-  margin: 2rem 0;
-  text-align: justify;
-}
-
 a {
 
   text-decoration: none;
@@ -196,6 +189,10 @@ label.control:hover {
 @media (max-width: 560px) {
   :root {
     --size-control : 2rem;
+  }
+
+  html {
+    font-size: 0.5rem;
   }
 
   .inner-wrapper {
